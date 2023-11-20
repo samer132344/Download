@@ -1,0 +1,22 @@
+{
+  "name": "download",
+  "version": "1.0.0",
+  "description": "An app to download Youtube videos!",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Samer",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "ffmpeg-static": "^5.0.2",
+    "socket.io": "^4.5.1",
+    "ytdl-core": "^4.11.0"
+  },
+  "engines": {
+    "node": "14.17.3"
+  }
+}
