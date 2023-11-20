@@ -1,5 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-
-https://7ml-with-us.netlify.app/* https://7ml-with-us.com/:splat 301!
-
-# Example: https://budi.netlify.app/* https://budidev.com/:splat 301!
