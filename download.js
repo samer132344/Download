@@ -6,7 +6,7 @@ $("#download-form").submit(function (e) {
     var link = $("#youtube-vdieo-link").val();
   
     if (link.indexOf("youtube.com") > -1 || link.indexOf("youtu.be") > -1) {
-      $.ajax("http://localhost:3000/download", {
+      $.ajax("https://you-tube-downloader-vercel-cwqie7d2y-samer132344.vercel.app/download", {
         type: "POST",
         data: { link: link },
         success: (videoInfo) => {
